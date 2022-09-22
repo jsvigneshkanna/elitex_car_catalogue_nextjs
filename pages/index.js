@@ -1,7 +1,7 @@
 // Index page for website 🚀
 
 import React from "react";
-import { Cart, Footer, FooterBanner, HeroBanner, Layout, Navbar, Product } from "../components";
+import { Cart, Footer, HeroBanner, Layout, Navbar, Product } from "../components";
 import { client } from "../lib/client";
 
 const Home = ({ carsData, bannersData }) => {
@@ -20,7 +20,7 @@ const Home = ({ carsData, bannersData }) => {
         ))}
       </div>
       {console.log(bannersData[0])}
-      <FooterBanner footerBanner={bannersData && bannersData[0]} />
+      {/* <FooterBanner footerBanner={bannersData && bannersData[0]} /> */}
       <Footer />
     </div>
   );
