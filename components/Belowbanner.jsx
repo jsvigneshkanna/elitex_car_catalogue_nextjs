@@ -2,7 +2,7 @@ import React from "react";
 import { urlFor } from "../lib/client";
 import Link from "next/link";
 
-const Footerbanner = ({
+const Belowbanner = ({
   footerBanner: { discount, largeText1, largeText2, saleTime, smallText, midText, desc, product, buttonText, image },
 }) => {
   return (
@@ -29,4 +29,4 @@ const Footerbanner = ({
   );
 };
 
-export default Footerbanner;
+export default Belowbanner;
